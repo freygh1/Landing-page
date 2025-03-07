@@ -1,0 +1,270 @@
+:root{
+    --bg-primary:#2d3147;
+}
+
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(250, 239, 243);
+}
+
+a, li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.capitalize{
+    text-transform: uppercase;
+}
+
+.free::after{
+    content:"!";
+}
+
+.free{
+    font-weight: 900;
+}
+
+#hdr,.welcome-stn {
+    background-color: var(--bg-primary);
+}
+
+#logo{
+    margin: 2.5vh;
+    font-weight: 900;
+    font-size: 1.8Rem;
+    text-decoration: underline cadetblue 1.4px;
+    font-variant: small-caps;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: default;
+}
+
+
+#hdr{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hdr *:not(.recipe-type), .welcome-stn *{
+    color: aliceblue;
+}
+
+.bar-options{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-type{
+    margin-top: 1.5vh;
+    margin-bottom: 2.5vh;
+    padding: 1.5vh;
+    background-color: aliceblue;
+    box-shadow: 0 0 1.3px 4px #8793d6;
+    color: #2d3147;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+}
+    
+
+#navbar{
+   margin-bottom: 5vh; 
+   border-bottom: 2px solid #76afc5;
+   border-top: none;
+   box-shadow: 0 2px 0.1rem #8793d6;
+}
+
+#navbar-ctn{
+    padding: 1.4rem 1.2rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-weight: 600;
+}
+
+#navbar-ctn li a, .sign-up{
+    display: block;
+    border: 1px solid transparent;
+    padding: 1.1rem 1.3rem;
+    border-radius: 20px;
+}
+
+#navbar-ctn li a:hover, .sign-up:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #8793d6;
+    color: black;
+    box-shadow: 2px 5px 12px black;
+}
+
+.stn{
+    min-height: 20vh;
+}
+
+.welcome-stn{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2vw;
+}
+
+.welcome-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.presentation-img{
+    width: 60%;
+    max-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+.presentation-img img{
+    height: 85%;
+    border-radius: 20px;
+}
+
+.quote-text{
+    letter-spacing: 1.8px;
+}
+
+.quote-text a{
+    color: #8793d6;
+}
+
+.examples-recipes{
+    margin-top: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.food-examples-ctn{
+    display: flex;
+    overflow: scroll;
+    gap: 2vw;
+}
+
+.food{
+    height: 700px;
+    width: 900px;
+    margin: 0 4vw; 
+}
+
+
+.food img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;  
+}
+
+.food-examples{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5vh;
+}
+
+.food-examples p{
+    font-size: 1.3rem;
+}
+
+.examples-recipes h2{
+    font-size: 2.5rem;
+}
+
+.examples-recipes > p{
+    font-weight: 800;
+    font-size: 2.1rem;
+}
+
+.center{
+    text-align: center;
+}
+
+.quotes{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5vh 0;
+}
+
+.quote-container{
+    color: #fff;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.quote{
+    font-size: 2rem;
+}
+
+.author{
+    font-size: 1.6rem;
+}
+
+.create-account{
+    background: #76afc5;
+    margin: 0 4vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.create-account *{
+    margin: 1.2rem;
+}
+
+.create-account > p {
+    font-size: 1.4rem;
+}
+
+.create-account > a{
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.sign-up{
+    background: #8793d6;
+}
+
+#ftr{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: #2d3147;
+    color: #fff;
+    text-align: center;
+    margin-top: 3.5vh ;
+}
+
+.contact-bar{
+    display: flex;
+    justify-content: space-around;
+    
+}

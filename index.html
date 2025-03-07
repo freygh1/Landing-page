@@ -8,23 +8,80 @@
 </head>
 <body>
     <header id="hdr">
-        <span id="logo">AltaCousin</span>
-        <nav id="navbar">
-            <ul>
-                <li><a class="navbar-element" href="#" target="_blank" rel="noopener noreferrer"></a></li>
-                <li><a class="navbar-element" href="#" target="_blank" rel="noopener noreferrer"></a></li>
-                <li><a class="navbar-element" href="#" target="_blank" rel="noopener noreferrer"></a></li>
-                <li><a class="navbar-element" href="#" target="_blank" rel="noopener noreferrer"></a></li>
-                <li><a class="navbar-element" href="#" target="_blank" rel="noopener noreferrer"></a></li>
-            </ul>
-        </nav>
+        <span id="logo" class="italic">Alta Cuisine</span>
+        <div class="bar-options">
+            <span class="recipe-type italic">What recipe type do you wanna see today?</span>
+            <nav id="navbar">
+                <ul id="navbar-ctn">
+                    <li><a class="navbar-element capitalize" href="#" target="_blank" rel="noopener noreferrer">Breakfast</a></li>
+                    <li><a class="navbar-element capitalize" href="#" target="_blank" rel="noopener noreferrer">Lunch</a></li>
+                    <li><a class="navbar-element capitalize" href="#" target="_blank" rel="noopener noreferrer">Dinner</a></li>
+                    <li><a class="navbar-element capitalize" href="#" target="_blank" rel="noopener noreferrer">Snacks</a></li>
+                    <li><a class="navbar-element capitalize" href="#" target="_blank" rel="noopener noreferrer">For Special Days</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main id="mn">
-        <section class="stn welcome-stn"></section>
-        <section class="stn examples-recipes"></section>
-        <section class="stn quotes"></section>
-        <section class="stn create-account"></section>
+        <section class="stn welcome-stn">
+            <div class="welcome-text">
+                <h1 class="title">
+                    Just here, you could find the bests recipes of The World!
+                </h1>
+                <p>Our mission is bring us all kind of recipes, step-by-step and <span class="free capitalize italic">completely free</span></p>
+            </div>
+            <div class="presentation-img">
+                <img src="./cook-like-that.jpg" alt="">
+                <p class="quote-text">Photo by <a href="https://unsplash.com/@lvnatikk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Lily Banse</a> on <a href="https://unsplash.com/photos/cooked-dish-on-gray-bowl--YHSwy6uqvk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                </p>
+            </div>
+        </section>
+        <section class="stn examples-recipes">
+            <h2 class="center">if u want to learn how u could cook recipes from these countries... </h2>
+            <div class="food-examples-ctn">
+                <div class="food-examples">
+                    <div class="food">
+                        <img src="Country Food/french.jpg" alt="">
+                    </div>
+                    <p class="capitalize">French Food</p>
+                </div>
+                <div class="food-examples">
+                    <div class="food">
+                        <img src="Country Food/italian-food.jpg" >
+                    </div>
+                    <p class="capitalize">italian Food</p>
+                </div>
+                <div class="food-examples">
+                    <div class="food">
+                        <img src="Country Food/mexican-food.jpg" alt="">
+                    </div>
+                    <p class="capitalize">Mexican Food</p>
+                </div>
+            </div>
+           <p class="center italic capitalize">You are in the best place!</p>
+        </section>
+        <section class="stn quotes">
+            <div class="quote-container">
+                <p class="quote italic">“Food brings people together on many different levels. It’s nourishment of the soul and body; it’s truly love.”</p>
+                <br>
+                <p class="author italic">- Giada De Laurentiis</p>
+            </div>
+        </section>
+        <section class="stn create-account">
+            <h2 class="capitalize italic">What do u wait to join us?</h2>
+            <p>Let's do that!</p>
+                <p class="italic">And remember... <span class="free capitalize "> it's completely free</span></p>
+                <a class="sign-up capitalize" href="#" target="_blank" rel="noopener noreferrer">sign up</a>
+        </section>
     </main>
-    <footer id="ftr"></footer>
+    <footer id="ftr" class="stn">
+        <h3 class="ftr-contact capitalize">Contacts</h3>
+        <ul class="contact-bar">
+            <li><a href="#">Whatsapp</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+        <span class="italic copyright">&#169 All rights reserved</span>    
+    </footer>
 </body>
 </html>
